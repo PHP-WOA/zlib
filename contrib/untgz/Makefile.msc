@@ -1,5 +1,5 @@
 CC=cl
-CFLAGS=-MD
+CFLAGS=-MT
 
 untgz.exe: untgz.obj ..\..\zlib.lib
 	$(CC) $(CFLAGS) untgz.obj ..\..\zlib.lib
